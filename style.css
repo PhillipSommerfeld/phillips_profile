@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://use.typekit.net/bxt0xgd.css");
+
+.my_pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 550px;
+}
+
+.div_two h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 0.7em;
+}
+
+.div_two {
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  background-color: whitesmoke;
+  border-radius: 5%;
+  box-shadow: 3px 3px 5px grey;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.body {
+  background-color: rgb(225, 229, 241);
+}
+
+.h_three_one {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.bored_button_connector a {
+  text-decoration: none;
+}
+
+.bored_button_connector {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  /* width: 20%; */
+  border-radius: 5%;
+  border-style: none;
+  background-color: rgb(0, 0, 0);
+}
+
+.inside_button {
+  color: whitesmoke;
+}
+
+.first_para {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.insta_prof {
+  width: 30px;
+  padding: 10px;
+}
+
+.follow {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.icon_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.div_it {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+  margin: 0 auto;
+  /* width: 50%; */
+  background-color: whitesmoke;
+  border-radius: 5%;
+  box-shadow: 3px 3px 5px grey;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 75%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 80%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 85%;
+  }
+}
